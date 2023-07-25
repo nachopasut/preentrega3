@@ -1,0 +1,123 @@
+#buscador {
+  background: linear-gradient(90deg, rgb(238, 231, 231) 0%, rgb(0, 0, 0) 100%, rgb(61, 63, 64) 100%);
+}
+#buscador li {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.titulo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Definicion {
+  font-family: "REM", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  border: solid black;
+}
+
+#pcr {
+  height: 450px;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+footer .divgrande {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+}
+footer .divgrande .contacto {
+  font-weight: 500;
+}
+footer .divgrande .contacto p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+footer .divgrande .redesfull .redescontainer {
+  display: flex;
+}
+footer .divgrande .redesfull .redescontainer .redes {
+  width: 70px;
+}
+
+.separador {
+  border: solid black;
+  height: 10px;
+  margin: 30px 0;
+  background-color: black;
+  color: black;
+}
+
+.bodycocina {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  flex-wrap: wrap;
+}
+.container .card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 510px;
+}
+
+#contactomain {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .divgrande {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  #pcr {
+    height: 300px;
+  }
+  #muebledecocinapiso {
+    height: 300px;
+  }
+  #muebledecocina {
+    height: 300px;
+  }
+}
+@media (max-width: 320px) {
+  #pcr {
+    height: 300px;
+  }
+  #muebledecocinapiso {
+    height: 300px;
+  }
+  #muebledecocina {
+    height: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */
